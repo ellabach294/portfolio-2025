@@ -50,4 +50,4 @@ The portfolio is live and can be accessed at: https://www.ellabach.com/
 
 Feedback is always appreciated! If you have suggestions for improvement or would like to contribute, feel free to submit an issue or pull request.
 
-Thank you for checking out my portfolio! I hope it provides a clear insight into my skills and the value I can bring as a developer.
+Thank you for checking out my portfolio! I hope it provides a clear insight into my skills and the value I can bring as a developer.# portfolio-2025
