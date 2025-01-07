@@ -1,0 +1,7 @@
+Light Theme
+______________________
+body: "FAF9F5",
+text: "1D1E22",
+fontFamily: "'Source Code Pro, serif'",
+bodyRgba: "250, 249, 245",
+textRgba: "29, 30, 34",
