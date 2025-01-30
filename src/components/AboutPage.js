@@ -43,6 +43,7 @@ const Main = styled.div`
   border: 2px solid ${(props) => props.theme.textBlack};
   color: ${(props) => props.theme.textBlack};
   background-color: ${(props) => props.theme.textWhite};
+  opacity: 0.8;
   padding: 2rem;
   width: 60vw;
   height: auto;
@@ -54,12 +55,6 @@ const Main = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  &:hover {
-    color: ${(props) => props.theme.textWhite};
-    background-color: ${(props) => props.theme.textBlack};
-    border: 1px solid ${(props) => props.theme.textWhite};
-  }
 `;
 
 const Title = styled.h2`
@@ -76,11 +71,6 @@ const Decscription = styled.div`
   strong {
     margin-bottom: 1rem;
     text-transform: uppercase;
-  }
-
-  ${Main}:hover & {
-    color: ${(props) => props.theme.textWhite};
-    background-color: ${(props) => props.theme.textBlack};
   }
 
   ${media.md`
@@ -162,44 +152,14 @@ const AboutPage = () => {
             <Title>My Journey in Web Development </Title>
 
             <Decscription>
-              <p>Hello and welcome to my tech haven!</p>
-              <p>
-                My name is Ella Bach, and I am a web design and development
-                student at NAIT, working towards a career as a full-stack
-                developer. I am currently on the Dean's Honour List with a GPA
-                of 4.0. I bring to my work a combination of technical expertise
-                and customer-focused experience.
-              </p>
+              <p>Hello everyone!</p>
+              <p>My name is Ella Bach, and I am a web design and development student at NAIT, aiming to become a full-stack developer. Currently on the Dean's Honour List with a GPA of 4.0, I bring technical expertise and customer-focused experience to my work.</p>
 
-              <p>
-                I was born and raised in Ho Chi Minh City, Vietnam, and migrated
-                to Australia when I was 17, starting my path of self-discovery
-                and development. I obtained a Bachelor of Arts in Hospitality
-                and Tourism Management and worked in customer service for almost
-                ten years, especially enjoying my role as a corporate travel
-                agent. Moved to Vancouver in 2017 and continues my career path
-                in the hospitality industry, I enrolled in the Post-Graduate
-                diploma in Hospitality Marketing at Douglas College. However,
-                the challenges of the COVID-19 pandemic brought unexpected
-                barriers for job hunting, and it motivated me to shift my focus.
-              </p>
+              <p>I was born in Ho Chi Minh City, Vietnam, and moved to Australia when I was 17. After completing my Bachelor of Arts in Hospitality and Tourism Management, I worked as a corporate travel agent for over ten years. In Vancouver in 2017, I pursued Hospitality Marketing at Douglas College.</p>
 
-              <p>
-                As a person who loves to learn new things and explore different
-                path, I began self-learning design and coding, create a
-                WordPress site to start selling my DIY Supplies, Figure Toys,
-                and Custom Stickers. In 2021, I made the decision to further my
-                technology skills by enrolling in NAIT's Digital Media and IT
-                with Web Design and Development Concentration. The more I study
-                the world of technology, the more I realize how strong it is and
-                I need to keep learning to keep up with global innovation.
-              </p>
+              <p>The COVID-19 pandemic motivated me to explore new fields, leading to my interest in technology. I am passionate about learning and have started self-learning design and coding, creating a WordPress site to sell DIY Supplies, Figure Toys, and Custom Stickers. In 2021, I enrolled in NAIT's Digital Media and IT with Web Design and Development Concentration.</p>
 
-              <p>
-                Join me on this exciting journey in coding, where each project
-                brings fresh ideas to life. Let's innovate together and create
-                something extraordinary!
-              </p>
+              <p>As I learn more about technology, I realize how wide it is and how important it is to keep studying. I'm looking forward to joining you on this exciting journey—let's make something extraordinary!</p>
             </Decscription>
 
             <Image className="pic" src={headshotImg} alt="Profile Headshot" />

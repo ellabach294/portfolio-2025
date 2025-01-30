@@ -71,7 +71,11 @@ const Grid = styled.div`
 
   ${media.md`
   grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
-`}
+  `}
+
+  ${media.lg`
+    grid-template-columns: repeat(3, minmax(calc(10rem + 15vw), 1fr));
+  `}
 `;
 
 const container = {

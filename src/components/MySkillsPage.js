@@ -47,21 +47,16 @@ const Main = styled.div`
   border: 2px solid ${(props) => props.theme.textBlack};
   color: ${(props) => props.theme.textBlack};
   background-color: ${(props) => props.theme.textWhite};
+  opacity: 0.9;
   padding: 2rem;
   width: 50vw;
   height: max-content;
   z-index: 3;
   line-height: 1.5;
-  cursor: pointer;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  &:hover {
-    color: ${(props) => props.theme.textWhite};
-    background-color: ${(props) => props.theme.textBlack};
-  }
 
   ${media.md`
     margin-top: 8rem;
@@ -82,11 +77,6 @@ const Decscription = styled.div`
   strong {
     margin-bottom: 1rem;
     text-transform: uppercase;
-  }
-
-  ${Main}:hover & {
-    color: ${(props) => props.theme.textWhite};
-    background-color: ${(props) => props.theme.textBlack};
   }
 
   ${media.md`
