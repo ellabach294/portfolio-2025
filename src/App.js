@@ -7,6 +7,7 @@ import { colorTheme } from './components/Themes';
 
 import {AnimatePresence} from "framer-motion"
 import SoundBar from "./subComponents/SoundBar"
+import BooksLibrary from './components/subPages/BooksLibrary';
 
 // Lazy-loaded Components
 const Main = lazy(() => import('./components/Main'));
@@ -50,6 +51,7 @@ function App() {
         <Route exact path="/projects/pokemon-game" element={<PokemonGame />} />
         <Route exact path="/projects/cooking-recipe-website" element={<CookingRecipe />} />
         <Route exact path="/projects/chinese-drama-catalogue" element={<ChineseCatalogue />} />
+        <Route exact path="/projects/boundless-books-library" element={<BooksLibrary />} />
       </Routes>
         </Suspense>
       </AnimatePresence>
