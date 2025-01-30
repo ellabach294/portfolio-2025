@@ -2,7 +2,7 @@ import React from 'react'
 import { LogoBlack, LogoWhite } from '../components/AllSvgs'
 import styled from 'styled-components'
 
-const Logo = styled.div`
+const Logo = styled.a`
     width: 6rem;
     height: 3rem; 
 
@@ -19,7 +19,7 @@ const Logo = styled.div`
 const LogoComponent = (props) => {
 
   return (
-    <Logo>
+    <Logo href='/'>
         {props.theme === 'light' ? <LogoBlack /> : <LogoWhite />}
     </Logo>
   )
