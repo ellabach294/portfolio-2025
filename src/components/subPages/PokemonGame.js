@@ -270,7 +270,7 @@ const PokemonGame = () => {
           </Main>
 
           <Main>
-            <ContentTitle>Learning Outocmes</ContentTitle>
+            <ContentTitle>Learning Outcomes</ContentTitle>
 
             <Description>
               Through PokéFlip, I strengthened my skills in:

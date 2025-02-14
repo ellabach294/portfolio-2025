@@ -99,7 +99,7 @@ const ParticlesComponentDark = (props) => {
     []
   );
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} />;
+  return init ? <Particles id={props.id} init={particlesLoaded} options={options} /> : null;
 };
 
 export default ParticlesComponentDark;

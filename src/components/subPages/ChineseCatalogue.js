@@ -321,7 +321,7 @@ const ChineseCatalogue = () => {
           </Main>
 
           <Main>
-            <ContentTitle>Learning Outocmes</ContentTitle>
+            <ContentTitle>Learning Outcomes</ContentTitle>
 
             <Description>
               This project enhanced my skills in : 

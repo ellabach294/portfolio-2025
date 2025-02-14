@@ -3,6 +3,7 @@ import cookingRecipeCover from "../assets/images/cooking-recipe-cover.webp"
 import pokemonCover from "../assets/images/pokemon-game-cover.webp"
 import travelAgentCover from "../assets/images/travel-agent-cover.webp"
 import booksLibrary from "../assets/images/books-library/cover-img.webp"
+import stickyApp from "../assets/images/scrennshot-cover.webp"
 
 
 export const Projects = [
@@ -43,7 +44,7 @@ export const Projects = [
         skillsTags:["WordPress", "PHP", "SCSS", "JavaScript", "jQuery"],
         imgSrc:travelAgentCover,
         link: "/projects/travel-agent-website",
-        brief: "A custom WordPress theme for a U.S.-based travel agent specializing in Disney vacations and Norwegian cruises, featuring a quote form, special deals, blog, testimonials, and contact form."
+        brief: "A custom WordPress theme for a U.S.-based travel agent, featuring a quote form, special deals, blog, testimonials, and contact form."
     },
 
     {
@@ -53,6 +54,16 @@ export const Projects = [
         skillsTags: ["React", "SCSS", "API", "JavaScript", "Vercel"],
         imgSrc: booksLibrary,
         link: "/projects/boundless-books-library",
-        brief: "A React-based book library app styled with SCSS, fetching data from the OpenLibrary API to display trending books, with features like title search and detailed book information."
-    }
+        brief: "A React-based book library app styled with SCSS, fetching data from the OpenLibrary API to display trending books."
+    },
+
+    {
+        id: 6,
+        tag: "Electron React App",
+        name: "Sticky App",
+        skillsTags: ["Electron", "React", "Vite", "JavaScript", "TailwindCSS"],
+        imgSrc: stickyApp,
+        link: "/projects/sticky-app",
+        brief: "Sticky App is a lightweight, cross-platform note-taking application, featuring draggable, resizable sticky notes with a sleek UI."
+    },
 ]

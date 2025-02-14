@@ -23,16 +23,19 @@ z-index: 5;
 ${media.md`
   width: calc(10rem + 15vw);
 `}
-
 `
 
 const Image = styled.div`
 background-image: ${props => `url(${props.src})`};
 width: 100%;
-height: 50%;
+min-height: 30%;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center center;
+
+${media.lg`
+  min-height: 40%;
+`}
 
 `
 
