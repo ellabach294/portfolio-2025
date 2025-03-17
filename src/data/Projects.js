@@ -1,9 +1,10 @@
-import chineseDramaCover from "../assets/images/chinese-drama-cover.webp"
-import cookingRecipeCover from "../assets/images/cooking-recipe-cover.webp"
-import pokemonCover from "../assets/images/pokemon-game-cover.webp"
-import travelAgentCover from "../assets/images/travel-agent-cover.webp"
-import booksLibrary from "../assets/images/books-library/cover-img.webp"
-import stickyApp from "../assets/images/scrennshot-cover.webp"
+import chineseDramaCover from "../assets/images/chinese-catalogue-mockup.jpg"
+import cookingRecipeCover from "../assets/images/anthony-chef-mockup.jpg"
+import pokemonCover from "../assets/images/pokeflip-mockup.jpg"
+import travelAgentCover from "../assets/images/travel-agency-mockup.jpg"
+import booksLibrary from "../assets/images/book-library-mockup.jpg"
+import stickyApp from "../assets/images/stikcy-app-mockup.jpg"
+import dashboard from "../assets/images/dashboard-mockup.jpg"
 
 
 export const Projects = [
@@ -66,4 +67,14 @@ export const Projects = [
         link: "/projects/sticky-app",
         brief: "Sticky App is a lightweight, cross-platform note-taking application, featuring draggable, resizable sticky notes with a sleek UI."
     },
+
+    {
+        id: 7,
+        tag: "UI/UX Design",
+        name: "Dashboard TailwindCSS",
+        skillsTags: ["HTML", "TailwindCSS"],
+        imgSrc: dashboard,
+        link:"/projects/dashboard-tailwindcss",
+        brief: "This project focuses on a responsive web application dashboard prototype using Tailwind CSS"
+    }
 ]

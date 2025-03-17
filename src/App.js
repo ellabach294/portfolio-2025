@@ -23,6 +23,7 @@ const PokemonGame = lazy(() => import('./components/subPages/PokemonGame'));
 const CookingRecipe = lazy(() => import('./components/subPages/CookingRecipe'));
 const ChineseCatalogue = lazy(() => import('./components/subPages/ChineseCatalogue'));
 const StickyApp = lazy(() => import('./components/subPages/StickyApp'))
+const DashboardTailwind = lazy(() => import('./components/subPages/DashboardTaiwind'))
 
 const Loader = () => (
   <div style={{textAlign: "center", padding:"2rem", fontSize:"1.5rem"}}>
@@ -54,6 +55,7 @@ function App() {
         <Route exact path="/projects/chinese-drama-catalogue" element={<ChineseCatalogue />} />
         <Route exact path="/projects/boundless-books-library" element={<BooksLibrary />} />
         <Route exact path="/projects/sticky-app" element={<StickyApp />} />
+        <Route exact path="/projects/dashboard-tailwindcss" element={<DashboardTailwind />}/>
       </Routes>
         </Suspense>
       </AnimatePresence>

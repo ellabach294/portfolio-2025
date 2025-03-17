@@ -5,7 +5,6 @@ import media from "./ResponsiveDevices";
 import { NavLink } from "react-router";
 
 import { Projects } from "../data/Projects";
-import gridImage from "../assets/images/grid-background.jpg";
 
 const LogoComponent = lazy(() => import("../subComponents/LogoComponent"));
 const GobackBtn = lazy(() => import("../subComponents/GobackButton"));
@@ -14,11 +13,11 @@ const ProjectComponent = lazy(() => import("./ProjectComponent"));
 const AnchorComponent = lazy(() => import("../subComponents/AnchorComponent"));
 
 const MainContainer = styled(motion.div)`
-  background-image: url(${gridImage});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: #f8f8f8; /* Off-white color */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
   width: 100vw;
 
   h2,
@@ -32,7 +31,6 @@ const MainContainer = styled(motion.div)`
 `;
 
 const Container = styled.div`
-  background-color: ${(props) => `rgba(${props.theme.bodyRgba}, 0.8)`};
   width: 100%;
   height: auto;
   position: relative;

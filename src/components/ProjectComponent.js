@@ -9,8 +9,9 @@ import { NavLink } from 'react-router'
 const Box = styled(motion.div)`
 width: calc(13rem + 15vw);
 text-decoration: none;
-height: 32rem;
-padding: 1rem;
+min-height: 35rem;
+height: auto;
+padding: 1.5rem 1rem;
 border: 2px solid ${props => props.theme.textRed};
 border-radius: 10px;
 backdrop-filter: blur(2px);
@@ -27,16 +28,13 @@ ${media.md`
 
 const Image = styled.div`
 background-image: ${props => `url(${props.src})`};
-width: 100%;
-min-height: 30%;
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
-background-position: center center;
-
-${media.lg`
-  min-height: 40%;
-`}
-
+background-position: top center;
+border-radius: 10px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+width: 100%;
+min-height: 20rem;
 `
 
 const Title = styled.h3`
@@ -50,6 +48,7 @@ font-size: 1.5rem;
 
 const Tag = styled.p`
 padding: 0 1rem;
+margin-bottom: 0;
 color: ${props => props.theme.textBlack};
 font-weight: 600;
 `
@@ -113,7 +112,7 @@ const ProjectComponent = (props) => {
           }
         </SkillTags>
         <Brief>{brief}</Brief>
-        <Link target="_blank" to={{pathname: link}}>Visit Project <ArrowRightUpIcon width={10} height={10} fill="currentColor"/></Link>
+        <Link target="_blank" to={{pathname: link}}>Visit Project <ArrowRightUpIcon width={10} height={10} fill="currentColor" tabIndex="1"/></Link>
     </Box>
   )
 }

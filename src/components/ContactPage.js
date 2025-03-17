@@ -1,6 +1,5 @@
 
 import React from 'react'
-import gridImage from "../assets/images/grid-background.jpg"
 import styled from 'styled-components'
 import {AnimatePresence, motion} from "framer-motion"
 
@@ -11,12 +10,13 @@ import SocialIcons from '../subComponents/SocialIcons'
 import ContactForm from './ContactForm';
 
 const MainContainer = styled(motion.div)`
-background-image: url(${gridImage});
-background-size: cover;
-background-attachment: fixed;
-background-position: center;
-width: 100vw;
-height: auto;
+background-color: #f8f8f8; /* Off-white color */
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 2px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 2px, transparent 1px);
+  background-size: 50px 50px;
+  width: 100vw;
+  height: auto;
 
 h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", serif;
