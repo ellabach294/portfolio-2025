@@ -54,7 +54,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0, 1, 1.5, 1], opacity: 1}}
             transition={{type:'spring', duration:1, delay: 1.2}}
         >
-            <a style={{color:'inherit'}} target="_blank" rel="noopener noreferrer" href="https://github.com/ellabach294">
+            <a style={{color:'inherit'}} target="_blank" rel="noopener noreferrer" href="https://github.com/ellabach294" aria-label='Link GitHub profile'>
                 <GitHubIcon width={30} height={30} fill={props.theme === 'light' ? theme.textRed : theme.textYellow} />
             </a>
         </motion.div>
@@ -64,7 +64,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0, 1, 1.5, 1], opacity: 1}}
             transition={{type:'spring', duration:1, delay: 1.4}}
         >
-            <a style={{color:'inherit'}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ella-bach-b453a8230/">
+            <a style={{color:'inherit'}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ella-bach-b453a8230/" aria-label="Link LinkedIn Profile">
                 <LinkedInIcon width={30} height={30} fill={props.theme === 'light' ? theme.textRed : theme.textYellow} />
             </a>
         </motion.div>

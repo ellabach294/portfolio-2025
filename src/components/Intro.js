@@ -89,7 +89,7 @@ const Text = styled.div`
   gap: 1rem;
     `}
 
-  h1 {
+  h2 {
     color: ${(props) => props.theme.textYellow};
     font-size: 2rem;
     margin-top: 0;
@@ -148,7 +148,7 @@ const Intro = () => {
             <Box>
                 <SubBox>
                     <Text>
-                        <h1>Hi, I'm Ella</h1>
+                        <h2>Hi, I'm Ella</h2>
                         <AnimatedJobPosition />
                         <p>
                             Welcome to my tech haven! I'm a passionate coder and recently
@@ -169,6 +169,8 @@ const Intro = () => {
                             className="pic"
                             src={myImage}
                             alt="Profile"
+                            loading="eager"
+                            fetchPriority="high"
                             initial={{ y: 0 }}
                             animate={{
                                 y: [0, -10, 0],

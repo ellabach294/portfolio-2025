@@ -4,7 +4,9 @@ import styled, { keyframes } from 'styled-components'
 import music from "../assets/music/echoes-of-the-night-dusk.mp3"
 import media from '../components/ResponsiveDevices'
 
-const Box = styled.div`
+const Box = styled.button`
+background: none;
+border: none;
 display: flex;
 cursor: pointer;
 position: fixed;

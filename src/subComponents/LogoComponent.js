@@ -19,7 +19,7 @@ const Logo = styled.a`
 const LogoComponent = (props) => {
 
   return (
-    <Logo href='/'>
+    <Logo href='/' aria-label="Personal Logo">
         {props.theme === 'light' ? <LogoBlack /> : <LogoWhite />}
     </Logo>
   )

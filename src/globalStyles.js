@@ -17,6 +17,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Source Code Pro", serif;
+    font-display: swap;
 }
 `;
 
