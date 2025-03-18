@@ -1,6 +1,7 @@
 import {Suspense, lazy} from 'react'
 import { Route, Routes, useLocation } from "react-router"
 import { ThemeProvider } from 'styled-components';
+import { Analytics } from '@vercel/analytics/react';
 
 import GlobalStyle from './globalStyles';
 import { colorTheme } from './components/Themes';
@@ -34,7 +35,7 @@ const Loader = () => (
 function App() {
   const location = useLocation();
   return <>
-
+  <Analytics />
   <GlobalStyle />
 
     <ThemeProvider theme={colorTheme}>
