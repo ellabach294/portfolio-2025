@@ -1,10 +1,10 @@
-import chineseDramaCover from "../assets/images/chinese-catalogue-mockup.jpg"
-import cookingRecipeCover from "../assets/images/anthony-chef-mockup.jpg"
-import pokemonCover from "../assets/images/pokeflip-mockup.jpg"
-import travelAgentCover from "../assets/images/travel-agency-mockup.jpg"
-import booksLibrary from "../assets/images/book-library-mockup.jpg"
-import stickyApp from "../assets/images/stikcy-app-mockup.jpg"
-import dashboard from "../assets/images/dashboard-mockup.jpg"
+import chineseDramaCover from "../assets/images/chinese-catalogue-mockup.webp"
+import cookingRecipeCover from "../assets/images/anthony-chef-mockup.webp"
+import pokemonCover from "../assets/images/pokeflip-mockup.webp"
+import travelAgentCover from "../assets/images/travel-agency-mockup.webp"
+import booksLibrary from "../assets/images/book-library-mockup.webp"
+import stickyApp from "../assets/images/stikcy-app-mockup.webp"
+import dashboard from "../assets/images/dashboard-mockup.webp"
 
 
 export const Projects = [

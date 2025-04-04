@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
 
-import media from './ResponsiveDevices'
 import { ArrowRightUpIcon } from './AllSvgs'
 import { NavLink } from 'react-router'
 
 const Box = styled(motion.div)`
-width: calc(13rem + 15vw);
+min-width: calc(10rem + 15vw);
+max-width: calc(12rem + 15vw);
 text-decoration: none;
 min-height: 35rem;
 height: auto;
@@ -16,21 +16,24 @@ border: 2px solid ${props => props.theme.textRed};
 border-radius: 10px;
 backdrop-filter: blur(2px);
 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+transition: all 0.4s ease-in-out;
 
 display: flex;
 flex-direction: column;
 z-index: 5;
 
-${media.md`
-  width: calc(10rem + 15vw);
-`}
+&:hover {
+  background: ${props => props.theme.textYellow};
+  transform: translateY(-7px) !important;
+  transition: all 0.4s ease-in-out;
+}
 `
 
 const Image = styled.div`
 background-image: ${props => `url(${props.src})`};
 background-size: cover;
 background-repeat: no-repeat;
-background-position: top center;
+background-position: center center;
 border-radius: 10px;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 width: 100%;
@@ -79,7 +82,7 @@ color: ${props => props.theme.textRed};
 font-weight: 600;
 
 &:hover {
-  color: ${props => props.theme.textYellow};
+  color: ${props => props.theme.textWhite};
 }
 `
 const Item = {
