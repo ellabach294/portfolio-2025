@@ -68,7 +68,6 @@ const SubTitle = styled.p`
 const Img = styled.img`
   width: 100%;
   margin-bottom: 1rem;
-
 `;
 
 const ImgBanner = styled.img`
