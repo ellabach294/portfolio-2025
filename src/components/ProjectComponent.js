@@ -23,7 +23,7 @@ flex-direction: column;
 z-index: 5;
 
 &:hover {
-  background: ${props => props.theme.textYellow};
+  background: ${props => props.theme.lightYellow};
   transform: translateY(-7px) !important;
   transition: all 0.4s ease-in-out;
 }

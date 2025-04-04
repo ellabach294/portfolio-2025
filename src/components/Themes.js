@@ -7,6 +7,7 @@ export const colorTheme = {
     textGray: "#D4D4DC",
     textCharcoal: "#393F4D",
     textYellow: "#e9b44b",
+    lightYellow:"#f1d08f",
     textRed:"#9b2b20",
     fontFamily: "'Source Code Pro, serif'",
     bodyRgba: "250, 249, 245",

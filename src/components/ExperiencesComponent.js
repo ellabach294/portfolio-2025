@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 const Title = styled.h3`
   color: ${(props) => props.theme.textYellow};
   font-weight: bold;
-  font-size: calc(1.5em + 1vw);
+  font-size: calc(1.25rem + 1vw);
   text-align: center;
 
   ${media.md`
@@ -82,7 +82,7 @@ const MotionDiv = styled(motion.div)`
   color: ${(props) => props.theme.textWhite};
 
   h4 {
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.5rem + 1vw);
     font-weight: bold;
     margin: 0;
 
@@ -99,10 +99,10 @@ const MotionDiv = styled(motion.div)`
   }
 
   p {
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.2rem + 0.8vw);
 
     ${media.md`
-      font-size: calc(0.1em + 1vw);
+      font-size: calc(0.1rem + 0.8vw);
     `}
   }
 `;
